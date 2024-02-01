@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+// 글자서식
+$font_size_title:30px;
+
+// 변수에 생상값 저장
+$color01:#00f;
+
+$border01:1px solid #333;
+
+h3{
+  // 글자색 color01 변수값 적용
+  color:$color01;
+  font-size:$font_size_title;
+}
+ul{border:$border01;}
