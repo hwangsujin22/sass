@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap");
+h2 {
+  font-size: 16px;
+  color: #00f;
+}
+
+.title01 {
+  font-family: "Noto Sans KR", "맑은 고딕", arial, sans-serif;
+  font-size: 30px;
+  color: #f00;
+}
+
+.btn1 {
+  padding: 4px 10px;
+  color: #333;
+  background: #0f0;
+}
+
+.btn2 {
+  padding: 4px 10px;
+  color: #333;
+  background: #ff0;
+}
+
+.p01 {
+  width: 250px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.btn3 {
+  font-family: "궁서체";
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  padding: 5px 30px;
+  border-radius: 30px;
+  background: #ff0;
+  transition: 0.5s;
+}
+
+.btn4 {
+  font-family: "궁서체";
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  padding: 5px 30px;
+  border-radius: 30px;
+  background: #0f0;
+  transition: 0.5s;
+}
+
+.btn3:hover, .btn4:hover {
+  background: #333;
+  color: #fff;
+}
+
+.toggle_btn {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.bar {
+  position: absolute;
+  display: inline-block;
+  width: 38px;
+  height: 3px;
+  background: #333;
+  transition: 0.5s;
+  left: 1px;
+}
+
+.bar1 {
+  top: 5px;
+}
+
+.bar2 {
+  top: 18px;
+}
+
+.bar3 {
+  bottom: 5px;
+}
+
+.toggle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  position: relative;
+  cursor: pointer;
+}
+
+.rotate45 {
+  transform: rotate(45deg);
+  top: 18px !important;
+}
+
+.rotate0 {
+  display: none;
+}
+
+.rotate_45 {
+  transform: rotate(-45deg);
+  top: 18px !important;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+#toggle:checked + .toggle_btn > span:first-child {
+  transform: rotate(45deg);
+  top: 18px !important;
+}
+
+#toggle:checked + .toggle_btn > span:nth-child(2) {
+  display: none;
+}
+
+#toggle:checked + .toggle_btn > span:last-child {
+  transform: rotate(-45deg);
+  top: 18px !important;
+}
+
+.sns i {
+  font-size: 40px;
+  padding: 10px;
+  border: 1px solid #333;
+  transition: 0.5s;
+  color: #fff;
+  background: #333;
+}
+
+.sns i:hover {
+  background: #f00;
+  border: 1px solid #f00;
+}/*# sourceMappingURL=style.css.map */
