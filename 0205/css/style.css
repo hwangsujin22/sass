@@ -1,0 +1,88 @@
+@charset "UTF-8";
+body {
+  font-family: "맑은 고딕", arial, sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#wrap {
+  background: #ff7b00;
+  width: 1280px;
+  height: 400px;
+  margin: 0px auto;
+}
+
+#box01 {
+  width: 1280px;
+  background: #f00;
+}
+
+#box02 {
+  width: 1280px;
+  background: #0f0;
+}
+
+.btn {
+  width: 200px;
+  height: 30px;
+  background: #ccc;
+  border: 1px solid #ccc;
+  text-align: center;
+  color: #333;
+}
+
+.btn03 {
+  width: 200px;
+  height: 30px;
+  background: #f00;
+  border: 1px solid #f00;
+  text-align: center;
+  color: #333;
+}
+
+.btn04 {
+  width: 200px;
+  height: 30px;
+  background: #0f0;
+  border: 1px solid #0f0;
+  text-align: center;
+  color: #333;
+}
+
+.btn05 {
+  width: 200px;
+  height: 30px;
+  background: #ff0;
+  border: 1px solid #ff0;
+  text-align: center;
+  color: #333;
+}
+
+.list01 li {
+  border: 1px solid #333;
+  margin-bottom: 3px;
+}
+
+.list01 li:first-child {
+  border: 1px solid #f00;
+  margin-bottom: 3px;
+}
+
+.list01 li:nth-child(2) {
+  border: 3px double #0f0;
+  margin-bottom: 3px;
+}
+
+.list01 li:nth-child(3) {
+  border: 3px dotted #00f;
+  margin-bottom: 3px;
+}
+
+.list01 li:last-child {
+  border: 3px dashed #ff0;
+  margin-bottom: 3px;
+}/*# sourceMappingURL=style.css.map */
